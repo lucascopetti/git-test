@@ -7,7 +7,8 @@
 //============================================================================
 
 #include <iostream>
-#include "testclass.h"
+
+#include "../include/testclass/testclass.h"
 
 using namespace std;
 

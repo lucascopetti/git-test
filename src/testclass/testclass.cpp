@@ -5,7 +5,7 @@
  *      Author: lucas
  */
 
-#include "testclass.h"
+#include "../../include/testclass/testclass.h"
 
 namespace std {
 
