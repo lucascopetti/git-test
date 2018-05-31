@@ -7,9 +7,13 @@
 //============================================================================
 
 #include <iostream>
+#include "testclass.h"
+
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	test_class testObject;
+	testObject.testInt = 10;
+	cout << "!!!Hello World!!!" << testObject.testInt << endl; // prints !!!Hello World!!!
 	return 0;
 }
